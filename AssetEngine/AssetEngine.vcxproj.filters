@@ -13,10 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Core">
+      <UniqueIdentifier>{b054e189-f8a0-48fa-8903-b5d17e97fc06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Serialisation">
+      <UniqueIdentifier>{55809764-5b78-42d1-9c74-f122e9d44735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Archive">
+      <UniqueIdentifier>{29aaaf36-50e3-47f3-8441-fbe50ddbf7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Adapters">
+      <UniqueIdentifier>{bfe4af29-b7b6-4330-be6c-73742fb76554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Tests">
+      <UniqueIdentifier>{25e02b20-e42d-47d8-8fed-b312d2e34775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Archive">
+      <UniqueIdentifier>{942443f2-2546-46ea-ba8b-801c48ec1de8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="Archive.cpp">
+      <Filter>Fichiers sources\Archive</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryWriter.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryReader.h">
+      <Filter>Fichiers d%27en-tête\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.h">
+      <Filter>Fichiers d%27en-tête\Serialisation</Filter>
+    </ClInclude>
+    <ClInclude Include="Archive.h">
+      <Filter>Fichiers d%27en-tête\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsAdapter.h">
+      <Filter>Fichiers d%27en-tête\Adapters</Filter>
+    </ClInclude>
+    <ClInclude Include="RobustnessTests.h">
+      <Filter>Fichiers d%27en-tête\Tests</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
